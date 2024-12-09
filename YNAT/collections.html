@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YNAT - Store</title>
+ 
+  <link rel="stylesheet" href="styles.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <section id="home"></section>
+    <div class="message-line">
+      <span><p> 50% OFF THIS SEASON</p> BY  ONE  PIECE  WE  MEAN  ONE  PIECE  ONLY  </span>
+    </div>
+    <div class="logo">
+      <img
+        src="assets/HQ-ICON-ONLY-PNG.png"
+        alt="YNAT Logo"
+        class="logo-img"
+      />
+    </div>
+    <div class="menu-toggle">
+      <img src="Icons/Icons-File2.png" alt="Menu Toggle" class="menu-img" />
+      <!-- Replace with your actual image path and add any relevant classes -->
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="a2">Home</a></li>
+        <li><a href="collections.html" class="a2">Store</a></li>
+        <li><a href="AboutUs.html" class="a3">About</a></li>
+        <li><a href="#FAQ" class="a4">FAQ</a></li>
+        <li><a href="#Socials" class="a5">Socials</a></li>
+      </ul>
+    </nav>
+    <div class="cart">
+      <img
+        src="Icons/'Add-to-bag'-icon-Light-color1-PNG.png"
+        alt="Add to Bag"
+        class="menu-img2"
+      />
+      <!-- Add to Bag image here -->
+    </div>
+  </header>
+
+
+  <section class="hero-image">
+    <img src="Assets/cover-photo-windows-option-6.jpg" alt="YNAT Collections" class="hero-img" />
+  </section>
+
+
+  <div class="overlay-nav">
+    <div class="nav-header">
+      <i class="fas fa-arrow-left close-nav"></i>
+      <!-- Arrow icon for closing the sidebar -->
+    </div>
+    <nav>
+      <ul>
+        <li href="#home" class="li1">ynat</li>
+        <li href="collections.html" class="li2">Store</li>
+        <li href="#about" class="li3">About</li>
+        <li href="#FAQ" class="li4">FAQ</li>
+        <li href="#Socials" class="li5">Socials</li>
+      </ul>
+    </nav>
+  </div>
+
+
+  <section id="CartSide">
+  <div class="cart-sidebar">
+    <div class="cart-header">
+      <h2>Your Bag</h2>
+    </div>
+    <div class="cart-content">
+      <button class="close-cart" id="close-cart-btn">
+       
+        <!-- Arrow as a close icon -->
+      </button>
+      <p>Your bag is empty.</p>
+      <ul class="cart-items">
+        <!-- Items will be dynamically added here -->
+      </ul>
+      <div class="cart-total">
+        <p>Total: $<span id="total-price">0</span></p>
+        <button id="checkout-btn" class="checkout-btn">Checkout</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  </section>
+
+
+
+
+
+
+
+  <main id="collections">
+    <h1>Our Collections</h1>
+
+    <section class="collection-row">
+      <h2>Spring Collection</h2>
+      <div class="collection-carousel">
+       
+        <div class="collection-items">
+          <div class="collection-item">
+            <img src="path/to/image1.jpg" alt="Spring Collection 1">
+            <div class="sold-out">Sold Out</div>
+            <p>Vibrant colors for the sunny days.</p>
+          </div>
+          <div class="collection-item">
+            <img src="path/to/image2.jpg" alt="Spring Collection 2">
+            <div class="sold-out">Sold Out</div>
+            <p>Perfect for outdoor adventures.</p>
+          </div>
+          <!-- Add more items -->
+        </div>
+       
+      </div>
+    </section>
+
+    <section class="collection-row">
+      <h2>Mideast Funk</h2>
+      <div class="collection-carousel">
+        <div class="collection-items">
+          <div class="collection-item">
+            <img src="Glasses PNG/1.1.png" alt="Winter Wonders 1">
+            <div class="sold-out">Sold Out</div>
+            <p>Elegant designs for chilly vibes.</p>
+          </div>
+          <div class="collection-item">
+            <img src="Glasses PNG/2.1.png" alt="Winter Wonders 2">
+            <div class="sold-out">Sold Out</div>
+            <p>Stay cozy and stylish.</p>
+          </div>
+          <div class="collection-item">
+            <img src="Glasses PNG/3.1.png" alt="Winter Wonders 1">
+            <div class="sold-out">Sold Out</div>
+            <p>Elegant designs for chilly vibes.</p>
+          </div>
+          <div class="collection-item">
+            <img src="Glasses PNG/4.1.png" alt="Winter Wonders 1">
+            <div class="sold-out">Sold Out</div>
+            <p>Elegant designs for chilly vibes.</p>
+          </div>
+          <div class="collection-item">
+            <img src="Glasses PNG/5.1.png" alt="Winter Wonders 1">
+            <div class="sold-out">Sold Out</div>
+            <p>Elegant designs for chilly vibes.</p>
+          </div>
+          <div class="collection-item">
+            <img src="Glasses PNG/6.1.png" alt="Winter Wonders 1">
+            <div class="sold-out">Sold Out</div>
+            <p>Elegant designs for chilly vibes.</p>
+          </div>
+          <div class="collection-item">
+            <img src="Glasses PNG/7.1.png" alt="Winter Wonders 1">
+            <div class="sold-out">Sold Out</div>
+            <p>Elegant designs for chilly vibes.</p>
+          </div>
+          <!-- Add more items -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="about.js"></script>
+</body>
+</html>
